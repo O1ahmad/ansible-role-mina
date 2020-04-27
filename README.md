@@ -1,5 +1,5 @@
 <p><img src="https://code.benco.io/icon-collection/logos/ansible.svg" alt="ansible logo" title="ansible" align="left" height="60" /></p>
-<p><img src="https://codaprotocol.com/static/img/coda_facebook_OG.jpg" alt="Coda logo" title="coda" align="right" height="80" /></p>
+<p><img src="https://codaprotocol.com/static/img/coda_facebook_OG.jpg" alt="Coda logo" title="coda" align="right" height="160" /></p>
 
 Ansible Role :arrows_clockwise: :link: Coda
 =========
