@@ -1,2 +1,24 @@
 ---
-# defaults variable file
+coda_user: coda
+
+system_dependencies:
+  - apt-transport-https
+  - software-properties-common
+
+install_type: package
+install_dir: /opt/coda
+
+package_repo: "deb [trusted=yes] http://packages.o1test.net release main"
+package_name: "coda-testnet-postake-medium-curves"
+package_release: release
+
+_config_template: daemon.json
+config_dir: /etc/coda
+daemon_config: {}
+
+perform_uninstall: false
+
+snark_coordinator: localhost:8035
+
+extra_run_args: []
+extra_worker_args: []
