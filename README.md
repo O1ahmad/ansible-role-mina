@@ -3,9 +3,9 @@
 
 Ansible Role :arrows_clockwise: :link: Coda
 =========
-[![Galaxy Role](*role-shield-link*)](--role-link--)
+[![Galaxy Role](https://img.shields.io/ansible/role/48230.svg)](https://galaxy.ansible.com/0x0I/coda)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/0x0I/ansible-role-coda?color=yellow)
-[![Downloads](*downloads-shield-link*)](--role-link--)
+[![Downloads](https://img.shields.io/ansible/role/d/48230.svg?color=lightgrey)](https://galaxy.ansible.com/0x0I/coda)
 [![Build Status](https://travis-ci.org/0x0I/ansible-role-coda.svg?branch=master)](https://travis-ci.org/0x0I/ansible-role-coda)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://opensource.org/licenses/MIT)
 
