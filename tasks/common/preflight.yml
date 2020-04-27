@@ -32,17 +32,6 @@
   tags:
     - preflight
 
-- name: Set Coda daemon service unit [Service] configuration
-  set_fact:
-    _default_service_unit:
-      ExecStart: "/usr/local/bin/coda daemon -config-directory {{ config_dir }} {{ extra_run_args|join(' ') }}"
-      User: "{{ coda_user }}"
-      Group: "{{ coda_user }}"
-      StandardOutput: journal
-      StandardError: inherit
-  tags:
-    - preflight
-
 - name: Set Coda snark-worker unit [Service] configuration
   set_fact:
     _default_snarkworker_unit:

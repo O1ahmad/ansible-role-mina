@@ -65,3 +65,15 @@ suites:
     verifier:
       inspec_tests:
         - path: test/integration/config/daemon_config
+  - name: launch-daemon
+    provisioner:
+      playbook: test/integration/launch/daemon/default_playbook.yml
+    verifier:
+      inspec_tests:
+        - path: test/integration/launch/daemon
+  - name: launch-snark-worker
+    provisioner:
+      playbook: test/integration/launch/snark-worker/default_playbook.yml
+    verifier:
+      inspec_tests:
+        - path: test/integration/launch/snark-worker
