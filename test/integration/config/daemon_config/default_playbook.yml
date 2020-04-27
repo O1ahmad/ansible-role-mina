@@ -1,0 +1,5 @@
+---
+- name: Default playbook for daemon configuration testing
+  hosts: test-kitchen
+  roles:
+    - ansible-role-coda
