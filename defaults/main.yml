@@ -16,9 +16,15 @@ _config_template: daemon.json
 config_dir: /etc/coda
 daemon_config: {}
 
+managed_services: []
+
 perform_uninstall: false
 
 snark_coordinator: localhost:8035
+snark_workers: 2
 
 extra_run_args: []
 extra_worker_args: []
+
+custom_daemon_properties: {}
+custom_worker_properties: {}

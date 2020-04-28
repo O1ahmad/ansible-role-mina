@@ -1,5 +1,1 @@
-{
-{% for key, value in cfg.items() %}
-  "{{ key }}": {{ value | to_json }},
-{% endfor %}
-}
+{{ cfg | to_nice_json(indent=2) }}
