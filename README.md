@@ -1,7 +1,7 @@
 <p><img src="https://code.benco.io/icon-collection/logos/ansible.svg" alt="ansible logo" title="ansible" align="left" height="60" /></p>
-<p><img src="https://i.ibb.co/xm8Mkr9/coda-logo.png" alt="Coda logo" title="coda" align="right" height="70" /></p>
+<p><img src="https://icodrops.com/wp-content/uploads/2018/05/Mina_logo-150x150.png" alt="MIna logo" title="coda" align="right" height="70" /></p>
 
-Ansible Role :arrows_clockwise: :link: Coda
+Ansible Role :arrows_clockwise: :link: Mina
 =========
 [![Galaxy Role](https://img.shields.io/ansible/role/48230.svg)](https://galaxy.ansible.com/0x0I/coda)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/0x0I/ansible-role-coda?color=yellow)
